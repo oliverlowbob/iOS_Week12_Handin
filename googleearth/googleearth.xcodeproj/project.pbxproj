@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8449024B2424AF9B0078ED03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449024A2424AF9B0078ED03 /* AppDelegate.swift */; };
+		8449024D2424AF9B0078ED03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449024C2424AF9B0078ED03 /* SceneDelegate.swift */; };
+		8449024F2424AF9B0078ED03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449024E2424AF9B0078ED03 /* ViewController.swift */; };
+		844902522424AF9B0078ED03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844902502424AF9B0078ED03 /* Main.storyboard */; };
+		844902542424AF9F0078ED03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844902532424AF9F0078ED03 /* Assets.xcassets */; };
+		844902572424AF9F0078ED03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844902552424AF9F0078ED03 /* LaunchScreen.storyboard */; };
+		844902612424B8F10078ED03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 844902602424B8F10078ED03 /* GoogleService-Info.plist */; };
+		844902642424BF6D0078ED03 /* FirebaseRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844902632424BF6D0078ED03 /* FirebaseRepo.swift */; };
+		849840FC2424E36F008E5BAE /* MapDataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849840FB2424E36F008E5BAE /* MapDataAdapter.swift */; };
+		EC068C1A110730F8E07AD877 /* Pods_googleearth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50805B8CCA3C9F1E52C0142E /* Pods_googleearth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50805B8CCA3C9F1E52C0142E /* Pods_googleearth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_googleearth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5575045BE3B7CD6424FAD702 /* Pods-googleearth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleearth.release.xcconfig"; path = "Target Support Files/Pods-googleearth/Pods-googleearth.release.xcconfig"; sourceTree = "<group>"; };
+		6B4CEE029535FCE1DD80D807 /* Pods-googleearth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleearth.debug.xcconfig"; path = "Target Support Files/Pods-googleearth/Pods-googleearth.debug.xcconfig"; sourceTree = "<group>"; };
+		844902472424AF9B0078ED03 /* googleearth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googleearth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8449024A2424AF9B0078ED03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8449024C2424AF9B0078ED03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8449024E2424AF9B0078ED03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		844902512424AF9B0078ED03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844902532424AF9F0078ED03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844902562424AF9F0078ED03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844902582424AF9F0078ED03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844902602424B8F10078ED03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		844902632424BF6D0078ED03 /* FirebaseRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRepo.swift; sourceTree = "<group>"; };
+		849840FB2424E36F008E5BAE /* MapDataAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataAdapter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844902442424AF9B0078ED03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC068C1A110730F8E07AD877 /* Pods_googleearth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8449023E2424AF9B0078ED03 = {
+			isa = PBXGroup;
+			children = (
+				844902622424BF540078ED03 /* repo */,
+				844902492424AF9B0078ED03 /* googleearth */,
+				844902482424AF9B0078ED03 /* Products */,
+				CE071130A5CE87F45250D14B /* Pods */,
+				F79228933B1E90805937D1D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		844902482424AF9B0078ED03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844902472424AF9B0078ED03 /* googleearth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844902492424AF9B0078ED03 /* googleearth */ = {
+			isa = PBXGroup;
+			children = (
+				8449024A2424AF9B0078ED03 /* AppDelegate.swift */,
+				8449024C2424AF9B0078ED03 /* SceneDelegate.swift */,
+				8449024E2424AF9B0078ED03 /* ViewController.swift */,
+				844902502424AF9B0078ED03 /* Main.storyboard */,
+				844902532424AF9F0078ED03 /* Assets.xcassets */,
+				844902552424AF9F0078ED03 /* LaunchScreen.storyboard */,
+				844902582424AF9F0078ED03 /* Info.plist */,
+				844902602424B8F10078ED03 /* GoogleService-Info.plist */,
+			);
+			path = googleearth;
+			sourceTree = "<group>";
+		};
+		844902622424BF540078ED03 /* repo */ = {
+			isa = PBXGroup;
+			children = (
+				844902632424BF6D0078ED03 /* FirebaseRepo.swift */,
+				849840FB2424E36F008E5BAE /* MapDataAdapter.swift */,
+			);
+			path = repo;
+			sourceTree = "<group>";
+		};
+		CE071130A5CE87F45250D14B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B4CEE029535FCE1DD80D807 /* Pods-googleearth.debug.xcconfig */,
+				5575045BE3B7CD6424FAD702 /* Pods-googleearth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F79228933B1E90805937D1D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50805B8CCA3C9F1E52C0142E /* Pods_googleearth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844902462424AF9B0078ED03 /* googleearth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8449025B2424AF9F0078ED03 /* Build configuration list for PBXNativeTarget "googleearth" */;
+			buildPhases = (
+				AC903FB79846C20DFEAF17B3 /* [CP] Check Pods Manifest.lock */,
+				844902432424AF9B0078ED03 /* Sources */,
+				844902442424AF9B0078ED03 /* Frameworks */,
+				844902452424AF9B0078ED03 /* Resources */,
+				75C0AB53C04EB035FA5E65FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = googleearth;
+			productName = googleearth;
+			productReference = 844902472424AF9B0078ED03 /* googleearth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8449023F2424AF9B0078ED03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					844902462424AF9B0078ED03 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 844902422424AF9B0078ED03 /* Build configuration list for PBXProject "googleearth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8449023E2424AF9B0078ED03;
+			productRefGroup = 844902482424AF9B0078ED03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844902462424AF9B0078ED03 /* googleearth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844902452424AF9B0078ED03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844902572424AF9F0078ED03 /* LaunchScreen.storyboard in Resources */,
+				844902542424AF9F0078ED03 /* Assets.xcassets in Resources */,
+				844902522424AF9B0078ED03 /* Main.storyboard in Resources */,
+				844902612424B8F10078ED03 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75C0AB53C04EB035FA5E65FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-googleearth/Pods-googleearth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-googleearth/Pods-googleearth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-googleearth/Pods-googleearth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC903FB79846C20DFEAF17B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-googleearth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844902432424AF9B0078ED03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844902642424BF6D0078ED03 /* FirebaseRepo.swift in Sources */,
+				849840FC2424E36F008E5BAE /* MapDataAdapter.swift in Sources */,
+				8449024F2424AF9B0078ED03 /* ViewController.swift in Sources */,
+				8449024B2424AF9B0078ED03 /* AppDelegate.swift in Sources */,
+				8449024D2424AF9B0078ED03 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		844902502424AF9B0078ED03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844902512424AF9B0078ED03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844902552424AF9F0078ED03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844902562424AF9F0078ED03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844902592424AF9F0078ED03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8449025A2424AF9F0078ED03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8449025C2424AF9F0078ED03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4CEE029535FCE1DD80D807 /* Pods-googleearth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = googleearth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oliver.googleearth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8449025D2424AF9F0078ED03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5575045BE3B7CD6424FAD702 /* Pods-googleearth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = googleearth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oliver.googleearth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844902422424AF9B0078ED03 /* Build configuration list for PBXProject "googleearth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844902592424AF9F0078ED03 /* Debug */,
+				8449025A2424AF9F0078ED03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8449025B2424AF9F0078ED03 /* Build configuration list for PBXNativeTarget "googleearth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8449025C2424AF9F0078ED03 /* Debug */,
+				8449025D2424AF9F0078ED03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8449023F2424AF9B0078ED03 /* Project object */;
+}

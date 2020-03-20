@@ -1,0 +1,6 @@
+framework module Pods_googleearth {
+  umbrella header "Pods-googleearth-umbrella.h"
+
+  export *
+  module * { export * }
+}
